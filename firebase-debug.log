@@ -1,0 +1,58 @@
+[debug] [2022-11-10T18:22:44.735Z] ----------------------------------------------------------------------
+[debug] [2022-11-10T18:22:44.738Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2022-11-10T18:22:44.739Z] CLI Version:   11.16.0
+[debug] [2022-11-10T18:22:44.739Z] Platform:      linux
+[debug] [2022-11-10T18:22:44.739Z] Node Version:  v18.9.0
+[debug] [2022-11-10T18:22:44.740Z] Time:          Thu Nov 10 2022 23:52:44 GMT+0530 (India Standard Time)
+[debug] [2022-11-10T18:22:44.740Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-10T18:22:44.816Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-10T18:22:44.816Z] > authorizing via signed-in user (kartik.sindura@gmail.com)
+[debug] [2022-11-10T18:22:44.816Z] [iam] checking project uixi-bc3c1 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-11-10T18:22:44.819Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions [none]
+[debug] [2022-11-10T18:22:44.820Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions x-goog-quota-user=projects/uixi-bc3c1
+[debug] [2022-11-10T18:22:44.820Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-11-10T18:22:46.667Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions 200
+[debug] [2022-11-10T18:22:46.668Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-11-10T18:22:46.670Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/uixi-bc3c1 [none]
+[debug] [2022-11-10T18:22:47.371Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/uixi-bc3c1 200
+[debug] [2022-11-10T18:22:47.371Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/uixi-bc3c1 {"projectId":"uixi-bc3c1","projectNumber":"103825642242","displayName":"uixi","name":"projects/uixi-bc3c1","resources":{"hostingSite":"uixi-bc3c1"},"state":"ACTIVE","etag":"1_243985a6-70d0-48fb-ab72-d35b1f2081cb"}
+[debug] [2022-11-10T18:22:49.211Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/uixi-bc3c1/sites pageToken=&pageSize=10
+[debug] [2022-11-10T18:22:50.546Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/uixi-bc3c1/sites 200
+[debug] [2022-11-10T18:22:50.546Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/uixi-bc3c1/sites {"sites":[{"name":"projects/uixi-bc3c1/sites/uixi-bc3c1","defaultUrl":"https://uixi-bc3c1.web.app","appId":"1:103825642242:web:4ffacf40202696e780281b","type":"DEFAULT_SITE"}]}
+[debug] [2022-11-10T18:22:50.547Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:103825642242:web:4ffacf40202696e780281b/config [none]
+[debug] [2022-11-10T18:22:52.350Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:103825642242:web:4ffacf40202696e780281b/config 200
+[debug] [2022-11-10T18:22:52.351Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:103825642242:web:4ffacf40202696e780281b/config {"projectId":"uixi-bc3c1","appId":"1:103825642242:web:4ffacf40202696e780281b","storageBucket":"uixi-bc3c1.appspot.com","apiKey":"AIzaSyDocS3999chiQ2BVoCWAxvJWNU1OlY8SnY","authDomain":"uixi-bc3c1.firebaseapp.com","messagingSenderId":"103825642242","measurementId":"G-YCMTJTXCNP"}
+[debug] [2022-11-10T18:23:18.277Z] Error: Failed to collect page data for /
+    at /run/media/kartik/Kartik/GitHub/uixi/uixi/node_modules/next/dist/build/utils.js:955:15
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-11-10T18:24:34.923Z] ----------------------------------------------------------------------
+[debug] [2022-11-10T18:24:34.928Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2022-11-10T18:24:34.928Z] CLI Version:   11.16.0
+[debug] [2022-11-10T18:24:34.929Z] Platform:      linux
+[debug] [2022-11-10T18:24:34.929Z] Node Version:  v18.9.0
+[debug] [2022-11-10T18:24:34.929Z] Time:          Thu Nov 10 2022 23:54:34 GMT+0530 (India Standard Time)
+[debug] [2022-11-10T18:24:34.930Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-10T18:24:35.052Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-10T18:24:35.053Z] > authorizing via signed-in user (kartik.sindura@gmail.com)
+[debug] [2022-11-10T18:24:35.054Z] [iam] checking project uixi-bc3c1 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-11-10T18:24:35.058Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions [none]
+[debug] [2022-11-10T18:24:35.059Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions x-goog-quota-user=projects/uixi-bc3c1
+[debug] [2022-11-10T18:24:35.059Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-11-10T18:24:36.715Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions 200
+[debug] [2022-11-10T18:24:36.716Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/uixi-bc3c1:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-11-10T18:24:36.721Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/uixi-bc3c1 [none]
+[debug] [2022-11-10T18:24:37.249Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/uixi-bc3c1 200
+[debug] [2022-11-10T18:24:37.250Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/uixi-bc3c1 {"projectId":"uixi-bc3c1","projectNumber":"103825642242","displayName":"uixi","name":"projects/uixi-bc3c1","resources":{"hostingSite":"uixi-bc3c1"},"state":"ACTIVE","etag":"1_243985a6-70d0-48fb-ab72-d35b1f2081cb"}
+[debug] [2022-11-10T18:24:39.547Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/uixi-bc3c1/sites pageToken=&pageSize=10
+[debug] [2022-11-10T18:24:40.647Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/uixi-bc3c1/sites 200
+[debug] [2022-11-10T18:24:40.647Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/uixi-bc3c1/sites {"sites":[{"name":"projects/uixi-bc3c1/sites/uixi-bc3c1","defaultUrl":"https://uixi-bc3c1.web.app","appId":"1:103825642242:web:4ffacf40202696e780281b","type":"DEFAULT_SITE"}]}
+[debug] [2022-11-10T18:24:40.648Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:103825642242:web:4ffacf40202696e780281b/config [none]
+[debug] [2022-11-10T18:24:41.906Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:103825642242:web:4ffacf40202696e780281b/config 200
+[debug] [2022-11-10T18:24:41.906Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:103825642242:web:4ffacf40202696e780281b/config {"projectId":"uixi-bc3c1","appId":"1:103825642242:web:4ffacf40202696e780281b","storageBucket":"uixi-bc3c1.appspot.com","apiKey":"AIzaSyDocS3999chiQ2BVoCWAxvJWNU1OlY8SnY","authDomain":"uixi-bc3c1.firebaseapp.com","messagingSenderId":"103825642242","measurementId":"G-YCMTJTXCNP"}
+[debug] [2022-11-10T18:25:03.065Z] Error: Failed to collect page data for /
+    at /run/media/kartik/Kartik/GitHub/uixi/uixi/node_modules/next/dist/build/utils.js:955:15
+[error] 
+[error] Error: An unexpected error has occurred.
