@@ -11,7 +11,7 @@ export default function Experience(props) {
         {props.subtitle}
       </div>
       <div>
-        {props.lines.map((line, index) => (
+        {props.lines?.map((line, index) => (
           <p key={index}>
             {line}
           </p>

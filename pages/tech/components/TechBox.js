@@ -29,7 +29,7 @@ export default function Experience(props) {
         ))} */}
         </div>
         <div>
-          {props.lines.map((line, index) => (
+          {props.lines?.map((line, index) => (
             <p key={index}>
               {line}
             </p>
