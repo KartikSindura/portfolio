@@ -15,26 +15,15 @@ export default function Home() {
       <div className={styles.content}>
         <h1 className={styles.header}>
           <code>
-            Hi, Im Kartik.
+            Hi, I&rsquo;m Kartik.
           </code>
         </h1>
         <code>
-          Im a 19 year old student, I spend my time typing lorem ipsum Quisque tempus dolor eget erat blandit, vel egestas purus porttitor.
-          Morbi lectus sapien, congue vulputate libero non, ultrices scelerisque neque. Duis aliquet pulvinar viverra.
-          Etiam vitae sem ut quam porttitor aliquam eu sed ante. Etiam consectetur finibus aliquam. Cras accumsan a odio efficitur vehicula.
-          Quisque fringilla condimentum vestibulum. Vestibulum diam est, facilisis eu faucibus non, facilisis sit amet elit.
-          Nulla finibus lorem sit amet est venenatis rhoncus eget et ex. Morbi imperdiet auctor risus sed porttitor.
-          Sed non turpis hendrerit, sodales enim sit amet, convallis nunc. Nam a pellentesque tellus. Nullam ut ex mauris.
-          Phasellus fringilla mauris tellus, a aliquet magna porta nec.
-          Etiam vitae sem ut quam porttitor aliquam eu sed ante. Etiam consectetur finibus aliquam. Cras accumsan a odio efficitur vehicula.
-          Quisque fringilla condimentum vestibulum. Vestibulum diam est, facilisis eu faucibus non, facilisis sit amet elit.
-          Nulla finibus lorem sit amet est venenatis rhoncus eget et ex. Morbi imperdiet auctor risus sed porttitor.
-          Sed non turpis hendrerit, sodales enim sit amet, convallis nunc. Nam a pellentesque tellus. Nullam ut ex mauris.
-          Phasellus fringilla mauris tellus, a aliquet magna porta nec.
+          I&rsquo;m a 20 year old student
         </code>
         <div className={styles.footer}>
           <code>
-            hello
+            New Delhi, India
           </code></div>
       </div>
     </motion.div>

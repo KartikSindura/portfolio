@@ -24,6 +24,7 @@
     justify-items: flex-start;
     gap: 1rem 1rem;
     width: 100%;
+    transition: 0.3s ease;
 }
 .item:hover {
     background-color: #181818;
