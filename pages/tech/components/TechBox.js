@@ -28,7 +28,7 @@ export default function Experience(props) {
           </p>
         ))} */}
         </div>
-        <div style={{ "padding": "1rem"}}>
+        <div style={{}}>
           {props.lines?.map((line, index) => (
             <p key={index}>
               {line}
