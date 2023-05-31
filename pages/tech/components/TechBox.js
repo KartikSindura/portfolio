@@ -15,7 +15,7 @@ export default function Experience(props) {
           src={props.image}
           width={props.width}
           height={props.height}
-          style={{ "backgroundColor": `${props.color}` }}
+          style={{ "backgroundColor": `${props.color}`}}
           alt="no">
         </Image>
         <div>
@@ -28,7 +28,7 @@ export default function Experience(props) {
           </p>
         ))} */}
         </div>
-        <div>
+        <div style={{ "padding": "1rem"}}>
           {props.lines?.map((line, index) => (
             <p key={index}>
               {line}

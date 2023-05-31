@@ -7,7 +7,8 @@
    grid-template-columns: 1fr 3fr 1fr;
    grid-template-rows: 50px auto;
    margin-top: 50px;
-   /* align-items: center; */
+   margin-bottom: 50px;
+   align-items: center;
    /* justify-items: center; */
 }
 .navbar {
@@ -17,11 +18,13 @@
   /* width: 100%; */
 }
 .header {
-  color: white;
+  color: gainsboro;
   font-size: 2rem;
 }
 .footer {
-  margin-top: 7rem;
+  margin-top: 5rem;
+  /* padding: 1rem; */
+  /* margin-bottom: 2rem; */
 }
 .content {
   border-style: solid;
@@ -29,6 +32,7 @@
   border-radius: 0.5rem;
   border-width: 1px;
   padding: 1rem;
+  font-size: 1rem;
 }
 .formcontainer {
   display: grid;
@@ -42,7 +46,7 @@
   border-width: 1px;
   border-style: solid;
   background-color: #212121;
-  color: white;
+  color: gainsboro;
   font-size: 18px;
   font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
   /* border: none; */
@@ -56,7 +60,7 @@
   border-width: 2px;
   border-style: solid;
   background-color: #212121;
-  color: white;
+  color: gainsboro;
   font-size: 18px;
   font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 }
@@ -68,7 +72,7 @@
   border-width: 2px;
   border-style: solid;
   background-color: #212121;
-  color: white;
+  color: gainsboro;
   font-size: 18px;
   font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
   resize: none;
