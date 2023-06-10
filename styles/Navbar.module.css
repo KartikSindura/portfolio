@@ -4,6 +4,8 @@
     column-gap: 1rem;
     /* row-gap: 1rem; */
     width: 100%;
+    align-items: center;
+    height: 20px;
 }
 .list{
     transition: ease 0.2s;
@@ -12,11 +14,13 @@
     transition: ease 0.2s;
     color: hsl(0, 100%, 50%);
     font-size: 21px;
+    margin-top: 5px;
 }
 .list::selection {
     color: white;
 }
 .minicontainer {
+    align-items: center;
     display: flex;
     justify-content: flex-end;
     column-gap: 1rem;
